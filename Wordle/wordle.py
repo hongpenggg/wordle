@@ -130,5 +130,5 @@ class Wordle:
 
 
 a = Wordle()
-print(a.word)
+# print(a.word)
 a.main()
