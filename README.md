@@ -7,6 +7,9 @@ Use the app by creating an instance of the ```Wordle``` class in ```wordle.py```
 
 E.g.,
 ```
-# running the game
+# creating game instance
 game = Wordle()
+
+# running the game
+game.main()
 ```
