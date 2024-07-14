@@ -5,6 +5,29 @@ from random import choice
 
 # game class
 class Wordle:
+    '''
+    Class: Wordle
+    ---------------------------------------------------------
+    Description: A simple word game where the user has to guess a word of length 5
+    ---------------------------------------------------------
+    Methods:
+    - __init__(): Initialises the game
+    - all_words(): Extracts all words from a text file
+    - valid(): Validates user input
+    - check_guess(): Checks if the user's guess is correct
+    - display(): Displays the board
+    - prompt(): Prompts the user for input
+    - main(): Runs the game
+    ---------------------------------------------------------
+    Attributes:
+    - word: The word to be guessed
+    - count: The number of guesses
+    - board: The board to display the word
+    - dict: The dictionary of words
+    - past_guesses: The list of past guesses
+    ---------------------------------------------------------
+    '''
+    
     def __init__(self):
         self.word = choice(self.all_words())
         self.count = 0
